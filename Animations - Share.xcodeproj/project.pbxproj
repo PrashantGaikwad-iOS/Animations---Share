@@ -12,6 +12,16 @@
 		89FC26A121E5EF0A0058227D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89FC269F21E5EF0A0058227D /* Main.storyboard */; };
 		89FC26A321E5EF0E0058227D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89FC26A221E5EF0E0058227D /* Assets.xcassets */; };
 		89FC26A621E5EF0E0058227D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89FC26A421E5EF0E0058227D /* LaunchScreen.storyboard */; };
+		89FC26B821E5F3C20058227D /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC26AE21E5F3C20058227D /* UIViewXRadialGradient.swift */; };
+		89FC26B921E5F3C20058227D /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC26AF21E5F3C20058227D /* UITextFieldX.swift */; };
+		89FC26BA21E5F3C20058227D /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC26B021E5F3C20058227D /* UIButtonX.swift */; };
+		89FC26BB21E5F3C20058227D /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC26B121E5F3C20058227D /* UILabelX.swift */; };
+		89FC26BC21E5F3C20058227D /* UIViewAnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC26B221E5F3C20058227D /* UIViewAnchorPoint.swift */; };
+		89FC26BD21E5F3C20058227D /* UIViewControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC26B321E5F3C20058227D /* UIViewControllerX.swift */; };
+		89FC26BE21E5F3C20058227D /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC26B421E5F3C20058227D /* UIImageViewX.swift */; };
+		89FC26BF21E5F3C20058227D /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC26B521E5F3C20058227D /* UIViewX.swift */; };
+		89FC26C021E5F3C20058227D /* UIVisualEffectViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC26B621E5F3C20058227D /* UIVisualEffectViewX.swift */; };
+		89FC26C121E5F3C20058227D /* UISliderX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC26B721E5F3C20058227D /* UISliderX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		89FC26A221E5EF0E0058227D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89FC26A521E5EF0E0058227D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89FC26A721E5EF0E0058227D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89FC26AE21E5F3C20058227D /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXRadialGradient.swift; sourceTree = "<group>"; };
+		89FC26AF21E5F3C20058227D /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		89FC26B021E5F3C20058227D /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		89FC26B121E5F3C20058227D /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		89FC26B221E5F3C20058227D /* UIViewAnchorPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAnchorPoint.swift; sourceTree = "<group>"; };
+		89FC26B321E5F3C20058227D /* UIViewControllerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerX.swift; sourceTree = "<group>"; };
+		89FC26B421E5F3C20058227D /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		89FC26B521E5F3C20058227D /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		89FC26B621E5F3C20058227D /* UIVisualEffectViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectViewX.swift; sourceTree = "<group>"; };
+		89FC26B721E5F3C20058227D /* UISliderX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 		89FC269A21E5EF0A0058227D /* Animations - Share */ = {
 			isa = PBXGroup;
 			children = (
+				89FC26AD21E5F3C20058227D /* DesignableX */,
 				89FC269B21E5EF0A0058227D /* AppDelegate.swift */,
 				89FC269D21E5EF0A0058227D /* ViewController.swift */,
 				89FC269F21E5EF0A0058227D /* Main.storyboard */,
@@ -62,6 +83,23 @@
 				89FC26A721E5EF0E0058227D /* Info.plist */,
 			);
 			path = "Animations - Share";
+			sourceTree = "<group>";
+		};
+		89FC26AD21E5F3C20058227D /* DesignableX */ = {
+			isa = PBXGroup;
+			children = (
+				89FC26AE21E5F3C20058227D /* UIViewXRadialGradient.swift */,
+				89FC26AF21E5F3C20058227D /* UITextFieldX.swift */,
+				89FC26B021E5F3C20058227D /* UIButtonX.swift */,
+				89FC26B121E5F3C20058227D /* UILabelX.swift */,
+				89FC26B221E5F3C20058227D /* UIViewAnchorPoint.swift */,
+				89FC26B321E5F3C20058227D /* UIViewControllerX.swift */,
+				89FC26B421E5F3C20058227D /* UIImageViewX.swift */,
+				89FC26B521E5F3C20058227D /* UIViewX.swift */,
+				89FC26B621E5F3C20058227D /* UIVisualEffectViewX.swift */,
+				89FC26B721E5F3C20058227D /* UISliderX.swift */,
+			);
+			path = DesignableX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +173,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89FC26B921E5F3C20058227D /* UITextFieldX.swift in Sources */,
+				89FC26BC21E5F3C20058227D /* UIViewAnchorPoint.swift in Sources */,
+				89FC26BA21E5F3C20058227D /* UIButtonX.swift in Sources */,
+				89FC26C121E5F3C20058227D /* UISliderX.swift in Sources */,
+				89FC26BF21E5F3C20058227D /* UIViewX.swift in Sources */,
 				89FC269E21E5EF0A0058227D /* ViewController.swift in Sources */,
+				89FC26BB21E5F3C20058227D /* UILabelX.swift in Sources */,
 				89FC269C21E5EF0A0058227D /* AppDelegate.swift in Sources */,
+				89FC26C021E5F3C20058227D /* UIVisualEffectViewX.swift in Sources */,
+				89FC26BE21E5F3C20058227D /* UIImageViewX.swift in Sources */,
+				89FC26B821E5F3C20058227D /* UIViewXRadialGradient.swift in Sources */,
+				89FC26BD21E5F3C20058227D /* UIViewControllerX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = "Animations - Share/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H28X75MLUY;
 				INFOPLIST_FILE = "Animations - Share/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
